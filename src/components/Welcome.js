@@ -1,7 +1,9 @@
 import React,{Component} from "react";
+import { user } from "./MyImage";
+
 class Welcome extends Component{
     render(){
-        return <h1>Class Component</h1>
+        return <h1 className="greenclass">{user.name}</h1>
     }
 }
 
